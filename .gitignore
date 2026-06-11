@@ -1,0 +1,39 @@
+# Visual Studio build output
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.lib
+*.dll
+
+# Visual Studio project user files (machine-specific)
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+
+# Visual Studio cache / temp
+.vs/
+ipch/
+*.ncb
+*.aps
+
+# CMake (if ever used)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Build artifacts
+*.tlog
+*.lastbuildstate
+*.log
