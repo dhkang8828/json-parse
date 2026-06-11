@@ -1,0 +1,64 @@
+{
+  "inventory": [
+    {
+      "id": "CAR-001",
+      "brand": "Hyundai",
+      "model": "Sonata",
+      "year": 2024,
+      "price": 32500.00,
+      "inStock": true,
+      "color": "Pearl White",
+      "mileage": 0,
+      "engine": {
+        "type": "GDI",
+        "displacement": 2.0,
+        "cylinders": 4,
+        "horsepower": 165,
+        "turbocharged": false
+      },
+      "features": ["cruise_control", "lane_assist", "backup_camera", "bluetooth"]
+    },
+    {
+      "id": "CAR-002",
+      "brand": "Kia",
+      "model": "K5",
+      "year": 2023,
+      "price": 28900.50,
+      "inStock": true,
+      "color": "Gravity Gray",
+      "mileage": 12000,
+      "engine": {
+        "type": "T-GDI",
+        "displacement": 1.6,
+        "cylinders": 4,
+        "horsepower": 180,
+        "turbocharged": true
+      },
+      "features": ["sunroof", "heated_seats", "apple_carplay", "blind_spot"]
+    },
+    {
+      "id": "CAR-003",
+      "brand": "Genesis",
+      "model": "G80",
+      "year": 2024,
+      "price": 58000.00,
+      "inStock": false,
+      "color": null,
+      "mileage": 0,
+      "engine": {
+        "type": "T-GDI",
+        "displacement": 2.5,
+        "cylinders": 4,
+        "horsepower": 300,
+        "turbocharged": true
+      },
+      "features": ["massaging_seats", "360_camera", "head_up_display", "remote_parking"]
+    }
+  ],
+  "dealership": {
+    "name": "Seoul Motors",
+    "city": "Seoul",
+    "totalCars": 3,
+    "openHours": "09:00-18:00"
+  }
+}
